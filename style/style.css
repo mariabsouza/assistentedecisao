@@ -55,11 +55,14 @@ button {
   border-radius: 30px;
   font-size: 1rem;
   margin-top: 2rem;
+  cursor: pointer;
+  margin-right: 1.5rem;
 }
 
 input {
   width: 25px;
   height: 25px;
+  cursor: pointer;
 }
 
 label,p {

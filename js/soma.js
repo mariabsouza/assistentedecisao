@@ -39,8 +39,14 @@ function enviar() {
       title: 'PT',
       text: 'Decisão não prevista. Gentileza reportar',
     })
-  }  
+  }   
+}
 
-  
+function limpar() {
+  const data = document.querySelectorAll('input[type="checkbox"]:checked')
+  for (let i = 0; i < data.length; i++) {
+    data[i].checked = false
+  }
+
 }
 
