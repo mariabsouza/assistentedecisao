@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Camada_1" x="0px" y="0px" viewBox="0 0 343.33 353.59" style="height:100%;" xml:space="preserve">
+      <style type="text/css">
+        .st3{fill:#90BEE2;}
+        .st4{fill:#21366C;}
+        .st5{fill:#5193CE;}
+      </style>
+      <circle class="st3" cx="136.21" cy="127" r="54.74"></circle>
+      <path class="st4" d="M171.67,353.59c94.81,0,171.67-76.86,171.67-171.67L0,181.92C0,276.73,76.86,353.59,171.67,353.59z"></path>
+      <path class="st5" d="M269.76,29.22c-43.52-40.81-111.88-38.61-152.68,4.91l157.59,147.79C315.47,138.4,313.27,70.03,269.76,29.22z"></path>
+      </svg> -->
+
+    <section id="all">
+      <section id="picture">
+        <img src="assets/img/laiz-2.png" />
+        <h1>Assistente de decisão - GE</h1>
+        <p>Versão 1 - 07/04/2022</p>
+      </section>
+      <section id="form">
+        <h1>Selecione de acordo com o sinistro analisado:</h1>
+        <form>
+          <div class="input">
+            <input type="checkbox" id="defeitoGF" value="3" />
+            <label for="defeitoGF">Defeito GF</label>
+          </div>
+  
+          <div class="input">
+            <input type="checkbox" id="sgdSinistro" value="6" />
+            <label for="sgdSinistro">Segundo Sinistro</label>
+          </div>
+  
+          <div class="input">
+            <input type="checkbox" id="demandaPT" value="2" />
+            <label for="demandaPT">Segurado demanda PT</label>
+          </div>
+  
+          <div class="input">
+            <input type="checkbox" id="mesmoDft" value="1" />
+            <label for="mesmoDft">Mesmo defeito</label>
+          </div>
+  
+          <div class="input">
+            <input
+              type="checkbox"
+              id="trcSinistro"
+              class="checkbox e1"
+              value="8"
+            />
+            <label for="trcSinistro">Terceiro Sinistro</label>
+          </div>
+  
+          <div class="input">
+            <input
+              type="checkbox"
+              id="produtoEssenc"
+              class="checkbox"
+              value="1"
+            />
+            <label for="produtoEssenc">Produto essencial</label>
+          </div>
+  
+          <div class="input">
+            <input
+              type="checkbox"
+              id="cliVulneravel"
+              class="checkbox e1"
+              value="2"
+            />
+            <label for="cliVulneravel">Cliente vulnerável</label>
+          </div>
+  
+          <div class="input">
+            <input
+              type="checkbox"
+              id="trintaDias"
+              class="checkbox e1"
+              value="30"
+            />
+            <label for="trintaDias">>30 dias</label>
+          </div>
+  
+          <div class="input">
+            <input
+              type="checkbox"
+              id="quarenta5dias"
+              class="checkbox e1"
+              value="1"
+            />
+            <label for="quarenta5dias">Prev. máx. 45 dias</label>
+          </div>
+        </form>
+        <button type="button" onclick="enviar()">Enviar</button>
+      </section>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/soma.js"></script>
+  </body>
+</html>
