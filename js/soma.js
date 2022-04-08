@@ -7,24 +7,19 @@ function enviar() {
     let id = data[i].id
     ids = ids + id
     console.log(ids)
-    console.log(typeof(ids))
   }
 
-  let exception = "sgdSinistromesmoDftprodutoEssenc"
+  // //let exception = "sgdSinistromesmoDftprodutoEssenc"
+  // if (ids == exception) {
+      
+  //   soma = 1
+  // }
 
   for (let i = 0; i < data.length; i++) {
-    console.log(ids)
-    console.log(exception)
-    if (ids == exception) {
-      
-      soma = 1
-    } else {
       value = parseInt(data[i].value)
       soma = value + soma
-    }
-    console.log(soma)
+      console.log(soma)
   }
-
 
   if (soma >= 8) {
     Swal.fire({
