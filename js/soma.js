@@ -93,7 +93,7 @@ function enviar() {
   } else {
     Swal.fire({
       icon: 'info',
-      title: 'PT',
+      title: 'Oops...',
       text: 'Decisão não prevista. Gentileza reportar',
     })
   }   
@@ -105,7 +105,7 @@ function enviar() {
       let texto = "Decisão " + (i+1) + " - Resultado: " + situacoes[i].value
       Swal.fire({
         icon: 'info',
-        title: 'PT',
+        title: situacoes[i].value,
         text: texto,
       })
     } 
